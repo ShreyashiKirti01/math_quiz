@@ -1,0 +1,42 @@
+body{
+background:url("photo-1592743263126-bb241ee76ac7.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+}
+
+#background{
+background-color: hsl(180, 70%, 99%);
+
+width: 500px;
+opacity: 70%;
+border-radius:5% ;
+border-style:ridge;
+border-width: 20px;
+}
+
+button{
+background-color: rgb(89, 89, 148);
+color: beige;
+height: 60px;
+width: 60px;
+font-size: 40px;
+border-radius: 30px;
+cursor: pointer;
+}
+
+img{
+    border-radius: 40px;
+    transition: 1s;
+}
+
+img:hover{
+transform:scale(1.2);
+cursor: pointer;
+}
+
+h1{
+font-size: 60px;
+background-color: rgb(207, 188, 162);
+color: hsl(0, 90%, 12%);
+}
